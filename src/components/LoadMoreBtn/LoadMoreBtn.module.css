@@ -1,0 +1,29 @@
+.button {
+  display: block;
+  margin: 20px auto;
+  font-family: "Manrope", sans-serif;
+  /* padding: 12px 20px; */
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 12px 51px;
+  line-height: 1.25;
+  font-weight: bold;
+  color: #101828;
+  border: 1px solid #3470ff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

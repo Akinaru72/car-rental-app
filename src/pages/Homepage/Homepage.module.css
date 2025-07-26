@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.content {
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60px;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  height: 44px;
+  width: 276px;
+  line-height: 1.25;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background-color: #3470ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0b44cd;
+}
